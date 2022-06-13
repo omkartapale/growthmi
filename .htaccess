@@ -1,0 +1,15 @@
+SetEnv RECAPTCHA_SECRET_KEY EnterGoogleReCaptchaAPISecret
+SetEnv MAILER_HOST localhost
+SetEnv MAILER_EMAIL EnterEmailAccount
+SetEnv MAILER_PASSWORD EnterPasswordForAccount
+SetEnv MAILER_SKIP_AUTH false
+SetEnv MAILER_ENCRYPTION SSL
+
+SetEnv EMPLOYEE_NAME "Asad Hussain"
+SetEnv EMPLOYEE_DESIGNATION "Founder &amp; Director"
+
+SetEnv MAIL_DETAILS_TO "tech4geekin@gmail.com"
+
+SetEnv VERSION "v1.12.00"
+
+Options -Indexes

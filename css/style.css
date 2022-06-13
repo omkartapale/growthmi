@@ -1,0 +1,463 @@
+/*
+* configuration https://gist.github.com/d8e656264e3080c5e4b2 
+* customization http://getbootstrap.com/customize/?id=d8e656264e3080c5e4b2 
+*/
+@import url(//fonts.googleapis.com/css?family=Raleway:400,200,300,700);
+
+/*
+* General
+*/
+body {
+    /*font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;*/
+    /*font-family: "Myriad Set Pro",​"Lucida Console",​"Verdana",​"sans-serif";
+    font-size: 16px;*/
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    /*font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";*/
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.25;
+}
+
+.growth {
+    color: #006FC0;
+}
+
+.growth-caret {
+    color: #001F5F;
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+.top-links {
+    padding-top: 36px;
+    color: #777;
+}
+
+.top-links a {
+    color: #777;
+}
+
+.top-links a:hover,
+.top-links a:focus {
+    text-decoration: none;
+    color: #006FC0;
+}
+
+.navbar-fixed-top {
+    background-color: #FFFFFF;
+}
+
+#navbar {
+    /*background-color: #0241e2;*/
+    background-color: rgb(25, 81, 158);
+}
+
+.navbar {
+    margin-bottom: 0;
+    min-height: 50px;
+    background-color: rgb(25, 81, 158);
+}
+
+.navbar-toggle {
+    background-color: rgb(25, 81, 158);
+    margin-top: 36px;
+    color: #F6F6F6;
+    border-radius: 10px;
+}
+
+.icon-bar {
+    color: #FFF;
+    background-color: #FFFFFF;
+}
+
+a {
+    -o-transition: color .3s ease-out, background 1s ease-out;
+    -ms-transition: color .3s ease-out, background 1s ease-out;
+    -moz-transition: color .3s ease-out, background 1s ease-out;
+    -webkit-transition: color .3s ease-out, background 1s ease-out;
+    /* ...and now override with proper CSS property */
+    transition: color .3s ease-out, background 1s ease-out;
+}
+
+.nav-justified > li > a {
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    padding: 15px;
+}
+
+.nav-justified > li > a:hover,
+.nav-justified > li > a:focus {
+    /*color: #253B80;*/
+    color: #dddddd;
+}
+
+.nav-justified > .active > a {
+    color: #dddddd;
+    /*background-color: #253B80;*/
+}
+
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
+    /*background-color: #00AFF0;*/
+    color: #FFFFFF;
+}
+
+.navbar-fixed-bottom {
+    padding: 10px;
+}
+
+#section-links {
+    position: fixed;
+    top: 38%;
+    right: 0px;
+}
+
+#sidebar {
+    bottom: 0;
+    left: auto;
+    list-style: none outside none;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 30px;
+    z-index: 5;
+    display: block;
+}
+
+#sidebar li {
+    padding: 6px 0;
+    text-align: center;
+    display: block;
+}
+
+#sidebar li a {
+    display: block;
+    margin: auto auto;
+    height: 4px;
+    width: 4px;
+    padding: 4px;
+    border-radius: 50%;
+    border:2px solid #777;
+    background-color: #FFF;
+    text-indent: -9999px;
+}
+
+#sidebar li.active a {
+    padding: 8px;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+section h3 {
+    font-size: 50px;
+    font-weight: 300;
+    margin: 50px auto;
+    text-align: center;
+}
+
+section p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.5789;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.read-more {
+    margin-top: 32px;
+}
+
+section.dark {
+    background-color: #F6F6F6;
+}
+
+section.light {
+    background-color: #FFFFFF;
+}
+
+section .contact-link {
+    margin: 60px auto 20px;
+    text-align: right;
+}
+
+.section-divider {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 0;
+    text-align: center;
+}
+
+/* home page */
+#intelligence {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background: #F6F6F6 url("../img/home-intro-bg.png") center bottom no-repeat;
+}
+
+#intelligence p {
+    margin-top: 100px;
+	font-weight:400;
+    background-color: rgba(246, 246, 246,.8);
+}
+
+#use {
+    padding-bottom: 10px;
+}
+
+#use .widget p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#specialize {
+    padding-bottom: 10px;
+}
+
+/* end home page sections */
+
+/* services page */
+#mantra {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background: #0070C0 url("../img/services-intro-bg.png") center bottom no-repeat;
+}
+
+#mantra h3 {
+    margin-top: 10px;
+}
+
+#mantra p {
+    margin-top: 150px;
+    background-color: rgba(0,112,192,.8);
+	font-weight:400;
+}
+#market-selection,
+#market-development,
+#market-entry,
+#market-assessment,
+#custom-research {
+    padding-bottom: 10px;
+}
+
+/* end services page sections */
+
+/* insight page */
+#ideas {
+    padding-top: 200px;
+    padding-bottom: 0;
+}
+
+#ideas h3 {
+    margin-top: 10px;
+}
+
+#why-growth .img-responsive,
+#custom-research .img-responsive,
+#market-development .img-responsive,
+#market-selection .img-responsive,
+#opportunities .img-responsive,
+#ideas .img-responsive {
+    margin: 0 auto;
+}
+
+#opportunities {
+    padding-bottom: 100px;
+}
+
+#opportunities .widget p {
+    margin: 10px auto;
+}
+
+/* end insight page sections */
+
+/* about page */
+#about-growth {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+#about-growth .growth-caret-divider {
+    font-weight: bold;
+    color: rgba(0, 123, 199, 0.36);
+    font-size: 44px;
+}
+
+#about-growth .widget p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* end about page sections */
+
+/* contact page */
+#contact-form{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+#contact-map{
+    padding-bottom: 100px;
+}
+#map-canvas{
+    width: 100% !important;
+    height: 500px;
+    background-color: #CCC;
+
+}
+/* end contact page */
+
+/* terms page */
+#terms-of-use {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: normal;
+}
+#terms-of-use p{
+    text-align: left;
+    margin: 18px 0;
+    font-size: 1em;
+    line-height: 1.2em;
+}
+
+/* end about page sections */
+
+.widget {
+    font-size: 14px;
+    line-height: 1.5789;
+    margin-top: 30px;
+}
+
+.widget h4 {
+    font-weight: 300;
+}
+
+.widget p {
+    font-size: 14px;
+    line-height: 1.5789;
+    margin: 24px auto 18px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+}
+.widget-bullet{
+    margin:5px;
+}
+p.widget-bullet-text{
+    text-align: left;
+    vertical-align: middle;
+    margin: 5px;
+    min-height: 35px;
+}
+.widget .well-sm{
+    border:#cccccc 1px solid;
+    border-radius: 10px;
+}
+footer .widget p {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.widget-title {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    /*text-transform: uppercase;*/
+    display: block;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.widget-text ul {
+    margin: 0;
+    list-style: outside none none;
+    padding: 0;
+}
+
+.widget-text li {
+    margin-left: 0;
+}
+
+footer a,
+.widget-text a {
+    color: #adadad;
+}
+
+.widget-text a:hover,
+.widget-text a:focus {
+    color: #006FC0;
+    text-decoration: none;
+}
+
+.stats-circle {
+    margin: 30px auto;
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    font-weight: bold;
+    font-size: 36px;
+    border-radius: 50%;
+    border: 1px #003e6f solid;
+    font-family: Arial
+}
+
+.founder-circle{
+    border-radius: 50%;
+    height: 150px;
+    border: 1px #003e6f solid;
+}
+#top-link-block.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -82px; /* negative of the offset - height of link element */
+    left: 10px; /* padding from the left side of the window */
+}
+
+#top-link-block.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 10px; /* height of link element */
+    left: 10px; /* padding from the left side of the window */
+}
+
+#mail-link {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 10px; /* height of link element */
+    right: 10px;
+}
+
+footer {
+    background-color: #333333;
+    padding: 20px 40px 100px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+footer p,
+footer .widget p {
+    font-size: 14px;
+    color: #adadad;
+    margin: 10px auto;
+}
+
+.copyright p {
+    font-size: 11px;
+}
+
+.copyright a:active, .copyright a:hover{
+    color: #ffffff;
+}
+.cookie-policy-prompt a{
+    color: #ffffff;
+}
+.cookie-policy-prompt a:hover, .cookie-policy-prompt a:active{
+    color: #ffffff;
+}
